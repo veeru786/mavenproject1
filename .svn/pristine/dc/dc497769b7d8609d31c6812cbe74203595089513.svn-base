@@ -1,8 +1,8 @@
 #release configuration
-#Tue Jul 04 15:15:40 IST 2017
+#Tue Jul 04 14:44:39 IST 2017
 scm.tagNameFormat=@{project.artifactId}-@{project.version}
 project.scm.maven.gov.in\:mavenproject1.developerConnection=scm\:svn\:http\://localhost/mavenproject/
-scm.tag=1.1
+scm.tag=mavenproject1-1.0
 project.rel.maven.gov.in\:mavenproject1=1.0
 pushChanges=true
 scm.url=scm\:svn\:http\://localhost/mavenproject/
@@ -10,7 +10,7 @@ preparationGoals=clean verify
 project.scm.maven.gov.in\:mavenproject1.connection=scm\:svn\:http\://localhost/mavenproject/
 remoteTagging=true
 scm.commentPrefix=[maven-release-plugin] 
-project.dev.maven.gov.in\:mavenproject1=1.2
+project.dev.maven.gov.in\:mavenproject1=1.1-SNAPSHOT
 project.scm.maven.gov.in\:mavenproject1.tag=HEAD
 exec.snapshotReleasePluginAllowed=false
 completedPhase=run-preparation-goals
